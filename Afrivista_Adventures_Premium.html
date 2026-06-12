@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Afrivista Adventures | Luxury African Safaris</title>
+<style>
+:root{
+--gold:#c9a227;
+--green:#1f4d3a;
+--sand:#f4efe4;
+--dark:#111;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,Arial,sans-serif}
+body{color:#333;background:white}
+nav{
+position:fixed;top:0;width:100%;z-index:1000;
+background:rgba(0,0,0,.7);backdrop-filter:blur(8px);
+padding:18px 8%;
+display:flex;justify-content:space-between;align-items:center;
+}
+.logo{color:white;font-size:28px;font-weight:700}
+.logo span{color:var(--gold)}
+nav ul{display:flex;gap:25px;list-style:none;color:white}
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url('https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1800&q=80');
+background-size:cover;background-position:center;
+display:flex;align-items:center;padding:0 10%;
+color:white;
+}
+.hero h1{font-size:72px;max-width:800px}
+.hero p{font-size:22px;margin:20px 0;max-width:650px}
+.btn{
+display:inline-block;
+padding:15px 30px;
+background:var(--gold);
+color:white;
+text-decoration:none;
+border-radius:40px;
+}
+section{padding:90px 10%}
+h2{font-size:42px;color:var(--green);margin-bottom:20px}
+.about{background:var(--sand)}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+.card{
+background:white;
+padding:30px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+.destinations .card h3{color:var(--green)}
+.stats{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+text-align:center;
+}
+.stat{
+background:var(--green);
+color:white;
+padding:30px;
+border-radius:15px;
+}
+.cta{
+background:linear-gradient(135deg,var(--green),#0c261c);
+color:white;
+text-align:center;
+}
+footer{
+background:#0f1714;
+color:white;
+padding:50px 10%;
+}
+@media(max-width:768px){
+.hero h1{font-size:44px}
+.stats{grid-template-columns:repeat(2,1fr)}
+nav ul{display:none}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo">Afri<span>vista</span> Adventures</div>
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Safaris</li>
+<li>Destinations</li>
+<li>Contact</li>
+</ul>
+</nav>
+
+<section class="hero">
+<div>
+<h1>Luxury African Safaris Crafted Around You</h1>
+<p>Discover Tanzania through extraordinary wildlife encounters, iconic landscapes, authentic cultures, and world-class hospitality.</p>
+<a href="#" class="btn">Plan Your Journey</a>
+</div>
+</section>
+
+<section class="about">
+<h2>About Afrivista</h2>
+<p>
+Afrivista Adventures is a premium safari company inspired by the beauty, wilderness,
+and spirit of Africa. We create bespoke journeys across Tanzania, combining luxury,
+adventure, conservation, and unforgettable experiences.
+</p>
+</section>
+
+<section>
+<h2>Signature Experiences</h2>
+<div class="grid">
+<div class="card"><h3>Luxury Safaris</h3><p>Private game drives and exclusive safari experiences.</p></div>
+<div class="card"><h3>Kilimanjaro Expeditions</h3><p>Expert-guided climbs to Africa's highest peak.</p></div>
+<div class="card"><h3>Zanzibar Escapes</h3><p>Pristine beaches and luxury island retreats.</p></div>
+<div class="card"><h3>Cultural Journeys</h3><p>Authentic encounters with Tanzania's communities.</p></div>
+</div>
+</section>
+
+<section class="destinations">
+<h2>Featured Destinations</h2>
+<div class="grid">
+<div class="card"><h3>Serengeti</h3><p>Witness the Great Migration.</p></div>
+<div class="card"><h3>Ngorongoro</h3><p>The world's largest intact volcanic caldera.</p></div>
+<div class="card"><h3>Tarangire</h3><p>Land of elephants and ancient baobabs.</p></div>
+<div class="card"><h3>Zanzibar</h3><p>Indian Ocean paradise.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Why Travel With Us</h2>
+<div class="stats">
+<div class="stat"><h3>100%</h3><p>Tailor-Made Trips</p></div>
+<div class="stat"><h3>24/7</h3><p>Guest Support</p></div>
+<div class="stat"><h3>Local</h3><p>Safari Experts</p></div>
+<div class="stat"><h3>Luxury</h3><p>Handpicked Lodges</p></div>
+</div>
+</section>
+
+<section class="cta">
+<h2 style="color:white">Begin Your African Story</h2>
+<p style="margin:20px 0">Every journey is designed around your dreams.</p>
+<a class="btn" href="#">Request a Safari Quote</a>
+</section>
+
+<footer>
+<h3>Afrivista Adventures</h3>
+<p>Experience the Beauty of Africa</p>
+<p>Email: info@afrivistaadventures.com</p>
+<p>Arusha, Tanzania</p>
+</footer>
+
+</body>
+</html>
